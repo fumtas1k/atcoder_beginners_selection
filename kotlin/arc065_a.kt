@@ -9,7 +9,7 @@ fun main() {
   while (i < S.length) {
     var ok = false
     FORMAT.forEach {
-      if (ok || S.substring(i, Math.min(i + it.length, S.length)) != it) return@forEach
+      if (ok || !S.substring(i).startsWith(it)) return@forEach
       ok = true
       i += it.length
     }
