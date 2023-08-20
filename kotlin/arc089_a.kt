@@ -1,4 +1,4 @@
-// ABC086C
+// ABC086C - Traveling
 
 import kotlin.system.exitProcess
 
@@ -12,6 +12,7 @@ fun main() {
 
     val dist = Math.abs(x0 - x1) + Math.abs(y0 - y1)
     val diffT = t1 - t0
+    // 時間差diffTが移動距離distより大きい場合、偶奇が同じではないと(x1, y1)に存在することが出来ない
     if (diffT < dist || diffT % 2 != dist % 2) {
       println("No")
       exitProcess(0)
