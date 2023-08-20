@@ -1,4 +1,4 @@
-// ABC081A
+// ABC081A - Placing Marbles
 
 fun main() {
   val s = readLine()!!

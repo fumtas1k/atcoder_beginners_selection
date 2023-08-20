@@ -1,4 +1,4 @@
-// ABC085B
+// ABC085B - Kagami Mochi
 
 fun main() {
   val N = readLine()!!.toInt()

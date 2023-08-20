@@ -1,4 +1,4 @@
-// ABC088B
+// ABC088B - Card Game for Two
 
 fun main() {
   readLine()!!

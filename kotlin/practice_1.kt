@@ -1,4 +1,4 @@
-// PracticeA
+// PracticeA - Welcome to AtCoder
 
 fun main() {
   val a = readLine()!!.toInt()

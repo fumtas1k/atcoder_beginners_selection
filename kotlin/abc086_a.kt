@@ -1,4 +1,4 @@
-// ABC086A
+// ABC086A - Product
 
 fun main() {
   val (a, b) = readLine()!!.split(" ").map(String::toInt)

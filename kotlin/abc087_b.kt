@@ -1,4 +1,4 @@
-// ABC087B
+// ABC087B - Coins
 
 fun main() {
   val A = readLine()!!.toInt()
