@@ -1,8 +1,9 @@
-// ABC049C
+// ABC049C - 白昼夢
 
 import kotlin.system.exitProcess
 
 fun main() {
+  // 文字列を頭から見ていくとdreamerとdreamを見分けにくいため文字列を反転させる
   val FORMAT = listOf("dream", "dreamer", "erase", "eraser").map { it.reversed() }
   val S = readLine()!!.reversed()
   var i = 0
