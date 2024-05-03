@@ -3,7 +3,7 @@
 | No | contest/problem | remark | ruby | kotlin | javascript |
 |----|-----------------|--------|------|--------|------------|
 | PracticeA | [Welcome to AtCoder](https://atcoder.jp/contests/abs/tasks/practice_1) | 標準入力/出力 | [ruby](ruby/practice_1.rb) | [kotlin](kotlin/practice_1.kt) | [javascript](javascript/practice_1.js) |
-| ABC086A | [Product](https://atcoder.jp/contests/abs/tasks/abc086_a) | | | [kotlin](kotlin/abc086_a.kt) ||
+| ABC086A | [Product](https://atcoder.jp/contests/abs/tasks/abc086_a) | 偶奇判定 | [ruby](ruby/abc086_a.rb) | [kotlin](kotlin/abc086_a.kt) | [javascript](javascript/abc086_a.js) |
 | ABC081A | [Placing Marbles](https://atcoder.jp/contests/abs/tasks/abc081_a) | | | [kotlin](kotlin/abc081_a.kt) ||
 | ABC081B | [Shift only](https://atcoder.jp/contests/abs/tasks/abc081_b) | | | [kotlin](kotlin/abc081_b.kt) ||
 | ABC087B | [Coins](https://atcoder.jp/contests/abs/tasks/abc087_b) | | | [kotlin](kotlin/abc087_b.kt) ||
