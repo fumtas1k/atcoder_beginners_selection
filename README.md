@@ -10,6 +10,6 @@
 | ABC083B | [Some Sums](https://atcoder.jp/contests/abs/tasks/abc083_b) | フィルター, 合計 | [ruby](ruby/abc083_b.rb) | [kotlin](kotlin/abc083_b.kt) | [javascript](javascript/abc083_b.js) |
 | ABC088B | [Card Game for Two](https://atcoder.jp/contests/abs/tasks/abc088_b) | ソート | [ruby](ruby/abc088_b.rb) | [kotlin](kotlin/abc088_b.kt) | [javascript](javascript/abc088_b.js) |
 | ABC085B | [Kagami Mochi](https://atcoder.jp/contests/abs/tasks/abc085_b) | SET | [ruby](ruby/abc085_b.rb) | [kotlin](kotlin/abc085_b.kt) | [javascript](javascript/abc085_b.js) |
-| ABC085C | [Otoshidama](https://atcoder.jp/contests/abs/tasks/abc085_c) | | | [kotlin](kotlin/abc085_c.kt) ||
+| ABC085C | [Otoshidama](https://atcoder.jp/contests/abs/tasks/abc085_c) | ループ | [ruby](ruby/abc085_c.rb) | [kotlin](kotlin/abc085_c.kt) | [javascript](javascript/abc085_c.js) |
 | ABC049C | [白昼夢](https://atcoder.jp/contests/abs/tasks/arc065_a) | | | [kotlin](kotlin/arc065_a.kt) ||
 | ABC086C | [Traveling](https://atcoder.jp/contests/abs/tasks/arc089_a) | | | [kotlin](kotlin/arc089_a.kt) ||
