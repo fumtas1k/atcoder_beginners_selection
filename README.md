@@ -7,7 +7,7 @@
 | ABC081A | [Placing Marbles](https://atcoder.jp/contests/abs/tasks/abc081_a) | カウント | [ruby](ruby/abc081_a.rb) | [kotlin](kotlin/abc081_a.kt) | [javascript](javascript/abc081_a.js) |
 | ABC081B | [Shift only](https://atcoder.jp/contests/abs/tasks/abc081_b) | ループ | [ruby](ruby/abc081_b.rb) | [kotlin](kotlin/abc081_b.kt) | [javascript](javascript/abc081_b.js) |
 | ABC087B | [Coins](https://atcoder.jp/contests/abs/tasks/abc087_b) | ループ | [ruby](ruby/abc087_b.rb) | [kotlin](kotlin/abc087_b.kt) | [javascript](javascript/abc087_b.js) |
-| ABC083B | [Some Sums](https://atcoder.jp/contests/abs/tasks/abc083_b) | | | [kotlin](kotlin/abc083_b.kt) ||
+| ABC083B | [Some Sums](https://atcoder.jp/contests/abs/tasks/abc083_b) | フィルター, 合計 | [ruby](ruby/abc083_b.rb) | [kotlin](kotlin/abc083_b.kt) | [javascript](javascript/abc083_b.js) |
 | ABC088B | [Card Game for Two](https://atcoder.jp/contests/abs/tasks/abc088_b) | | | [kotlin](kotlin/abc088_b.kt) ||
 | ABC085B | [Kagami Mochi](https://atcoder.jp/contests/abs/tasks/abc085_b) | | | [kotlin](kotlin/abc085_b.kt) ||
 | ABC085C | [Otoshidama](https://atcoder.jp/contests/abs/tasks/abc085_c) | | | [kotlin](kotlin/abc085_c.kt) ||
