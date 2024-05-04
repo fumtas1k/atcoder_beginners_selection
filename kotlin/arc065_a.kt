@@ -8,13 +8,13 @@ fun main() {
   val S = readLine()!!.reversed()
   var i = 0
   while (i < S.length) {
-    var is_match = false
+    var isMatch = false
     FORMAT.forEach {
-      if (is_match || !S.substring(i).startsWith(it)) return@forEach
-      is_match = true
+      if (isMatch || !S.substring(i).startsWith(it)) return@forEach
+      isMatch = true
       i += it.length
     }
-    if (is_match) continue
+    if (isMatch) continue
     println("NO")
     exitProcess(0)
   }

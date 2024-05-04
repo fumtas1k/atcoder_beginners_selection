@@ -6,13 +6,13 @@ const S = input[0].split("").reverse().join("");
 
 let i = 0;
 while (i < S.length) {
-  let is_match = false;
+  let isMatch = false;
   FORMAT.forEach(format => {
-    if (is_match || !S.substring(i).startsWith(format)) return; // このreturnはfor文のcontinueと同じ意味
-    is_match = true;
+    if (isMatch || !S.substring(i).startsWith(format)) return; // このreturnはfor文のcontinueと同じ意味
+    isMatch = true;
     i += format.length;
   });
-  if (is_match) continue;
+  if (isMatch) continue;
   console.log("NO");
   return; // このreturnで実行終了できる
 }
