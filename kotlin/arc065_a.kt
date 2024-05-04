@@ -4,17 +4,17 @@ import kotlin.system.exitProcess
 
 fun main() {
   // 文字列を頭から見ていくとdreamerとdreamを見分けにくいため文字列を反転させる
-  val FORMAT = listOf("dream", "dreamer", "erase", "eraser").map { it.reversed() }
+  val FORMAT = listOf("dream", "dreamer", "erase", "eraser").map(String::reversed)
   val S = readLine()!!.reversed()
   var i = 0
   while (i < S.length) {
-    var ok = false
+    var is_match = false
     FORMAT.forEach {
-      if (ok || !S.substring(i).startsWith(it)) return@forEach
-      ok = true
+      if (is_match || !S.substring(i).startsWith(it)) return@forEach
+      is_match = true
       i += it.length
     }
-    if (ok) continue
+    if (is_match) continue
     println("NO")
     exitProcess(0)
   }
