@@ -12,4 +12,4 @@
 | ABC085B | [Kagami Mochi](https://atcoder.jp/contests/abs/tasks/abc085_b) | SET | [ruby](ruby/abc085_b.rb) | [kotlin](kotlin/abc085_b.kt) | [javascript](javascript/abc085_b.js) |
 | ABC085C | [Otoshidama](https://atcoder.jp/contests/abs/tasks/abc085_c) | ループ | [ruby](ruby/abc085_c.rb) | [kotlin](kotlin/abc085_c.kt) | [javascript](javascript/abc085_c.js) |
 | ABC049C | [白昼夢](https://atcoder.jp/contests/abs/tasks/arc065_a) | 文字列操作 | [ruby](ruby/arc065_a.rb) | [kotlin](kotlin/arc065_a.kt) | [javascript](javascript/arc065_a.js) |
-| ABC086C | [Traveling](https://atcoder.jp/contests/abs/tasks/arc089_a) | | | [kotlin](kotlin/arc089_a.kt) ||
+| ABC086C | [Traveling](https://atcoder.jp/contests/abs/tasks/arc089_a) | パリティ, マンハッタン距離 | [ruby](ruby/arc089_a.rb) | [kotlin](kotlin/arc089_a.kt) | [javascript](javascript/arc089_a.js) |
