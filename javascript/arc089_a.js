@@ -1,11 +1,11 @@
 // ABC086C - Traveling
 
 const input = require("fs").readFileSync("/dev/stdin", "utf8").split("\n");
-const N = parseInt(input[0], 10);
+const N = Number(input[0]);
 const TXY = [[0, 0, 0]];
 for (let i = 1; i <= N; i++) {
   const [preT, preX, preY] = TXY[i - 1];
-  const [t, x, y] = input[i].split(" ").map(n => parseInt(n, 10));
+  const [t, x, y] = input[i].split(" ").map(Number);
   TXY.push([t, x, y]);
 
   const diffT = t - preT;

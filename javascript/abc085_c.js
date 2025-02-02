@@ -1,7 +1,7 @@
 // ABC085C - Otoshidama
 
 const input = require("fs").readFileSync("/dev/stdin", "utf8").split("\n");
-const [N, Y] = input[0].split(" ").map(n => parseInt(n, 10));
+const [N, Y] = input[0].split(" ").map(Number);
 
 for (let x = 0; x <= N; x++) {
   if (Y < 10_000 * x) break;

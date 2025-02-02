@@ -1,10 +1,7 @@
 // ABC087B - Coins
 
 const input = require("fs").readFileSync("/dev/stdin", "utf8").split("\n");
-const A = parseInt(input[0], 10);
-const B = parseInt(input[1], 10);
-const C = parseInt(input[2], 10);
-const X = parseInt(input[3], 10);
+const [A, B, C, X] = input.map(Number);
 
 let cnt = 0;
 for (let a = 0; a <= A; a++) {
