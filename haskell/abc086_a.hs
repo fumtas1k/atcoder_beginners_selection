@@ -2,5 +2,5 @@
 
 main :: IO ()
 main = do
-  [a, b] <- map read . words <$> getLine
+  [a, b] <- map (read :: String -> Integer) . words <$> getLine
   putStrLn $ if even (a * b) then "Even" else "Odd"
