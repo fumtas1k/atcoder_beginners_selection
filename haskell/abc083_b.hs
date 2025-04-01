@@ -1,9 +1,11 @@
 -- ABC083B - Some Sums
 
-sumDigits :: Integer -> Integer
-sumDigits x = sum [read [c] | c <- show x]
+import Data.Char (digitToInt)
 
 main :: IO ()
 main = do
   [n, a, b] <- map (read :: String -> Integer) . words <$> getLine
-  print $ sum [i | i <- [1 .. n], let s = sumDigits i, a <= s, s <= b]
+  print $ sum $ filter (\x -> let s = sumDigits x in a <= s && s <= b) [1..n]
+  where
+    sumDigits :: Integer -> Integer
+    sumDigits x = sum $ map (fromIntegral . digitToInt) $ show x
