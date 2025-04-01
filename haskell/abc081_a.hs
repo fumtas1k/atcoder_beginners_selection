@@ -1,4 +1,8 @@
 -- ABC081A - Placing Marbles
 
+import Data.Char (digitToInt)
+
 main :: IO ()
-main = print . length . filter (=='1') =<< getLine
+main = do
+  s <- map digitToInt <$> getLine
+  print $ sum s

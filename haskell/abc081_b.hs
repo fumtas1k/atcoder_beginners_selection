@@ -1,10 +1,12 @@
 -- ABC081B - Shift only
 
-countDivisibleBy2 :: Integral t => t -> Int
-countDivisibleBy2 x = if even x then 1 + countDivisibleBy2 (x `div` 2) else 0
-
 main :: IO ()
 main = do
   _ <- getLine
   as <- map (read :: String -> Integer) . words <$> getLine
-  print $ minimum $ map countDivisibleBy2 as
+  print $ countSteps as 0
+  where
+    countSteps :: [Integer] -> Integer -> Integer
+    countSteps xs i
+      | all even xs = countSteps (map (`div` 2) xs) (i + 1)
+      | otherwise = i
